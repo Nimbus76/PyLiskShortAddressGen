@@ -414,7 +414,7 @@ def showChoices(options):
     print('----------------------------------------------------------------')
 
     print(f"- Searching for Lisk Addresses that are" +
-          " {options.get('maxLength')} characters or less.")
+          f" {options.get('maxLength')} characters or less.")
 
     if options.get('bip39') is True:
 
